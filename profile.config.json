@@ -1,0 +1,100 @@
+{
+  "$schema": "./profile.config.schema.json",
+  "github": {
+    "username": "thanhdat2508",
+    "featuredRepos": [
+      {
+        "repo": "thanhdat2508/rex",
+        "solidButton": true,
+        "ctaLabel": "Visit project",
+        "ctaArrow": null,
+        "showRepoPath": false,
+        "projectUrl": "https://requinlab.tech",
+        "showBanner": true,
+        "autoOgImage": false,
+        "ogSourceUrl": "https://requinlab.tech",
+        "bannerUrl": "https://raw.githubusercontent.com/thanhdat2508/thanhdat2508/main/assets/rex.png"
+      }
+    ],
+    "moreRepos": ["lab", "ripgrim-com"]
+  },
+  "projects": {
+    "bannersEnabled": true,
+    "autoOgImages": true,
+    "bannerHeight": 220,
+    "bannerFit": "contain"
+  },
+  "profile": {
+    "name": "Nguyen Thanh Dat",
+    "handle": "@thanhdat",
+    "role": "Student @ Hanoi University of Science and Technology",
+    "intro": "Enjoys exploration and new experiences. Eager to contribute to products that solve problems.",
+    "status": "Building crazy things",
+    "focus": "AI, AI Agent, Programming, Automation",
+    "state": "active",
+    "links": [
+      { "label": "github", "url": "https://github.com/thanhdat2508" },
+      { "label": "skills", "url": "https://github.com/thanhdat2508/thanhdat2508/tree/main/.skills" },
+      { "label": "repos", "url": "https://github.com/thanhdat2508?tab=repositories" },
+      { "label": "config", "url": "https://github.com/thanhdat2508/thanhdat2508/blob/main/profile.config.json" }
+    ]
+  },
+  "theme": {
+    "dark": {
+      "page": "#181818",
+      "panel": "#202020",
+      "well": "#262626",
+      "text1": "#f2f2f2",
+      "text2": "#c7c7c7",
+      "text3": "#999999",
+      "line": "#343434",
+      "lineFaint": "#292929",
+      "accent": "#ffd400",
+      "accentText": "#ffd400",
+      "selected": "#3a3107",
+      "ok": "#c7c7c7",
+      "warn": "#b0b0b0",
+      "fail": "#e0e0e0",
+      "languageFallback": "#999999",
+      "auroraPalette": ["#121212", "#343434", "#5a5a5a", "#786700", "#c9a900", "#ffd400"]
+    },
+    "light": {
+      "page": "#f4f4f0",
+      "panel": "#ffffff",
+      "well": "#e9e9e4",
+      "text1": "#181818",
+      "text2": "#444444",
+      "text3": "#707070",
+      "line": "#c9c9c2",
+      "lineFaint": "#dfdfd9",
+      "accent": "#b39200",
+      "accentText": "#806900",
+      "selected": "#fff1a8",
+      "ok": "#444444",
+      "warn": "#656565",
+      "fail": "#292929",
+      "languageFallback": "#707070",
+      "auroraPalette": ["#f4f4f0", "#e5e2cd", "#d5cd95", "#c5b75d", "#b9a52b", "#8a7100"]
+    }
+  },
+  "motion": {
+    "enabled": true,
+    "speed": 1,
+    "auroraDuration": 9,
+    "auroraFps": 30,
+    "pendingDuration": 0.8
+  },
+  "effects": {
+    "dither": true,
+    "ditherScale": 4,
+    "ditherStrength": 0.82,
+    "animatedAurora": true,
+    "pendingMark": true
+  },
+  "layout": {
+    "width": 880,
+    "projectColumns": 2,
+    "showStats": true,
+    "showUpdatedAt": true
+  }
+}
